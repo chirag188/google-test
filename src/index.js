@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 // add to existing imports
-import Amplify from "aws-amplify";
+import { Amplify } from "aws-amplify";
 import config from "./aws-exports";
 // check if env is localhost or not
 // if you're not developing on localhost, you will need to detect this is another way—the docs linked above give some examples.
